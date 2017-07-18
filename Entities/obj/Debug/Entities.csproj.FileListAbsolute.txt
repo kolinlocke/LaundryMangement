@@ -1,0 +1,7 @@
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\Entities\bin\Debug\Entities.dll
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\Entities\bin\Debug\Entities.pdb
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\Entities\bin\Debug\EntityBase.dll
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\Entities\bin\Debug\EntityBase.pdb
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\Entities\obj\Debug\Entities.dll
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\Entities\obj\Debug\Entities.pdb

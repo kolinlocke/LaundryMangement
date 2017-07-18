@@ -39,22 +39,23 @@ namespace _EntityBase
             EntityFields EntityFields = new EntityFields();
             Type EntityType = typeof(T);
 
-            var EntityProps = EntityType.GetProperties(System.Reflection.BindingFlags.Public);
-
-            var EntityAtts = EntityType.GetCustomAttributes(typeof(EntityFieldAttribute), true);
-            foreach (Attribute Item_Att in EntityAtts)
-            {
-                if (Item_Att is EntityFieldAttribute)
+            var EntityProps = EntityType.GetProperties(System.Reflection.BindingFlags.Public).ToList();
+            EntityProps.ForEach(O_Prop => {
+                var PropAtts = O_Prop.GetCustomAttributes(typeof(EntityFieldAttribute), true);
+                foreach (Attribute Item_Att in PropAtts)
                 {
-                    EntityFieldAttribute EntityFieldAtt = (Item_Att as EntityFieldAttribute);
-                    EntityFields.Add(
-                        new EntityField()
-                        {
-                            FieldName = EntityFieldAtt.FieldName,
-                            IsKey = EntityFieldAtt.IsKey
-                        });
+                    if (Item_Att is EntityFieldAttribute)
+                    {
+                        EntityFieldAttribute EntityFieldAtt = (Item_Att as EntityFieldAttribute);
+                        EntityFields.Add(
+                            new EntityField()
+                            {
+                                FieldName = EntityFieldAtt.FieldName,
+                                IsKey = EntityFieldAtt.IsKey
+                            });
+                    }
                 }
-            }
+            });
 
             return EntityFields;
         }

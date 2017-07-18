@@ -1,0 +1,4 @@
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\EntityBase\bin\Debug\EntityBase.dll
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\EntityBase\bin\Debug\EntityBase.pdb
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\EntityBase\obj\Debug\EntityBase.dll
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\EntityBase\obj\Debug\EntityBase.pdb

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FDB0A72B-1C9B-4C10-8514-254ED1FA0982}</ProjectGuid>
+    <ProjectGuid>{6307DBC5-C329-4A2B-BC5C-AD088F078E31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EntityBase</RootNamespace>
-    <AssemblyName>EntityBase</AssemblyName>
+    <RootNamespace>_Entities</RootNamespace>
+    <AssemblyName>Entities</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,10 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityAttributes.cs" />
-    <Compile Include="EntityBase.cs" />
-    <Compile Include="EntityHelper.cs" />
+    <Compile Include="Entity_Item.cs" />
+    <Compile Include="Entity_RowProperty.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityBase\EntityBase.csproj">
+      <Project>{fdb0a72b-1c9b-4c10-8514-254ed1fa0982}</Project>
+      <Name>EntityBase</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

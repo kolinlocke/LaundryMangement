@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryMangement", "LaundryMangement\LaundryMangement.csproj", "{4FFACCE7-61E6-4784-89EC-5200B0F84FAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityBase", "EntityBase\EntityBase.csproj", "{FDB0A72B-1C9B-4C10-8514-254ED1FA0982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{6307DBC5-C329-4A2B-BC5C-AD088F078E31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{6862D459-1D05-49C7-9371-183F399CD985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{D73943D0-4644-43DC-98EB-FF84A55533CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI_Web", "UI_Web", "{DEB11BB5-14DD-48A5-A05E-3C1CB0E426A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7018E5DC-50A2-40BB-990A-B085CB1DCA7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +25,26 @@ Global
 		{4FFACCE7-61E6-4784-89EC-5200B0F84FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FFACCE7-61E6-4784-89EC-5200B0F84FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FFACCE7-61E6-4784-89EC-5200B0F84FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB0A72B-1C9B-4C10-8514-254ED1FA0982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB0A72B-1C9B-4C10-8514-254ED1FA0982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB0A72B-1C9B-4C10-8514-254ED1FA0982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB0A72B-1C9B-4C10-8514-254ED1FA0982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6307DBC5-C329-4A2B-BC5C-AD088F078E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6307DBC5-C329-4A2B-BC5C-AD088F078E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6307DBC5-C329-4A2B-BC5C-AD088F078E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6307DBC5-C329-4A2B-BC5C-AD088F078E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7018E5DC-50A2-40BB-990A-B085CB1DCA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7018E5DC-50A2-40BB-990A-B085CB1DCA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7018E5DC-50A2-40BB-990A-B085CB1DCA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7018E5DC-50A2-40BB-990A-B085CB1DCA7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDB0A72B-1C9B-4C10-8514-254ED1FA0982} = {6862D459-1D05-49C7-9371-183F399CD985}
+		{7018E5DC-50A2-40BB-990A-B085CB1DCA7A} = {6862D459-1D05-49C7-9371-183F399CD985}
+		{6307DBC5-C329-4A2B-BC5C-AD088F078E31} = {D73943D0-4644-43DC-98EB-FF84A55533CE}
+		{4FFACCE7-61E6-4784-89EC-5200B0F84FAC} = {DEB11BB5-14DD-48A5-A05E-3C1CB0E426A4}
 	EndGlobalSection
 EndGlobal
