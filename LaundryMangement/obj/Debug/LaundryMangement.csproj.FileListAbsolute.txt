@@ -1,0 +1,5 @@
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\LaundryMangement\bin\LaundryMangement.dll
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\LaundryMangement\bin\LaundryMangement.pdb
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\LaundryMangement\obj\Debug\LaundryMangement.csprojResolveAssemblyReference.cache
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\LaundryMangement\obj\Debug\LaundryMangement.dll
+C:\My.Files\Stuff\Ex Projects\LaundryMangement\LaundryMangement\obj\Debug\LaundryMangement.pdb
